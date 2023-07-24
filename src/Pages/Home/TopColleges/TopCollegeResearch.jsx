@@ -5,7 +5,7 @@ const TopCollegeResearch = ({researchHistory}) => {
         <div className="collapse collapse-plus bg-base-200">
             <input type="radio" name="my-accordion-3" />
             <div className="collapse-title">
-            <h2 className="text-2xl text-start font-semibold mb-10"><span>Research</span></h2>
+            <h2 className="font-bold"><span>Research</span></h2>
             </div>
             <div className="collapse-content">
             

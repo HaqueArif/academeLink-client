@@ -17,7 +17,7 @@ const TopCollegeSports = ({ sports }) => {
             <div className="collapse collapse-plus bg-base-200">
                 <input type="radio" name="my-accordion-3" />
                 <div className="collapse-title">
-                    <h2 className="text-2xl text-start font-bold mb-10"><span>Sports</span></h2>
+                    <h2 className="font-bold"><span>Sports</span></h2>
                 </div>
                 <div className="collapse-content">
                     <div>

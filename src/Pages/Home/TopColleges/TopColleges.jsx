@@ -21,8 +21,8 @@ const TopColleges = () => {
     const sortedColleges = [...colleges].sort((a, b) => b.rating - a.rating);
 
     const topColleges = sortedColleges.slice(0, 3);
-   
-    
+
+
 
     return (
         <div className="xl:px-40 lg:px-20 md:px-5 px-3 mx-auto my-40">
@@ -32,18 +32,18 @@ const TopColleges = () => {
                     topColleges.map(college => <div key={college._id}>
                         <div className="card card-compact  bg-base-100 shadow">
                             <figure><img src={college.collegeImage} alt="college photo" /></figure>
-                           
+
                             <div className="card-body">
                                 <h2 className="card-title">{college.collegeName}</h2>
                                 <p><span className="font-bold">Admission:</span> <span>Start: {college.admissionDate.start}</span><span> - End: {college.admissionDate.end}</span></p>
                                 <p><span className="font-bold">Rating: </span>{college.rating}</p>
                                 <p><span className="font-bold">Total Research: </span>{college.researchHistory.length}</p>
                                 <TopCollegeEvents events={college.events}></TopCollegeEvents>
-                        <TopCollegeResearch researchHistory={college.researchHistory}></TopCollegeResearch>
-                        <TopCollegeSports sports={college.sports}></TopCollegeSports>                           
+                                <TopCollegeResearch researchHistory={college.researchHistory}></TopCollegeResearch>
+                                <TopCollegeSports sports={college.sports}></TopCollegeSports>
                             </div>
                         </div>
-                        
+
                     </div>)
                 }
             </div>

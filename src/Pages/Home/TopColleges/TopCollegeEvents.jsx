@@ -6,8 +6,8 @@ const TopCollegeEvents = ({ events }) => {
         <div className="mt-5">
             <div className="collapse collapse-plus bg-base-200">
                 <input type="radio" name="my-accordion-3" />
-                <div className="collapse-title text-xl font-medium">
-                    <h2 className="text-2xl text-start font-bold mb-5"><span>College Events</span></h2>
+                <div className="collapse-title">
+                    <h2 className="font-bold"><span>College Events</span></h2>
                 </div>
                 <div className="collapse-content">
                     <div className="">

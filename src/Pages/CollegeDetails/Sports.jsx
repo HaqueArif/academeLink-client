@@ -16,7 +16,6 @@ const Sports = ({ sports }) => {
     return (
         <div className="mt-20">
             <h2 className="text-3xl text-start font-bold mb-10"><span className="border-b-8 pb-2">Sports</span></h2>
-            <p data-aos="fade-left" data-aos-duration="2000" className='mb-3'>Check out my projects section! I've worked on diverse React front-end projects, showcasing my skills in creating interactive interfaces, optimizing performance, and more.</p>
             <div>
                 <button data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"

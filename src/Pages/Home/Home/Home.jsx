@@ -5,7 +5,7 @@ import TopColleges from "../TopColleges/TopColleges";
 
 const Home = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             <SearchCollege></SearchCollege>
             <Hero></Hero>
             <TopColleges></TopColleges>
